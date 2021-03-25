@@ -1,0 +1,9 @@
+include ':Starbuzz'
+include ':LotteryListTwo'
+include ':LotteryListThree'
+include ':LotteryListSix'
+include ':LotteryListOne'
+include ':LotteryListFour'
+include ':LotteryListFive'
+include ':app'
+rootProject.name = "Chapter7"

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lottery ListOne</string>
+    <string name="lottery_logo">Lottery Logo</string>
+    <string-array name="options">
+        <item>Lottery</item>
+        <item>Jass</item>
+        <item>Bingo</item>
+        <item>Sporttip</item>
+    </string-array>
+</resources>
