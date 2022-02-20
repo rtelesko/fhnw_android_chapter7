@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         playerList = new ArrayList<>();
 
         // Adding some Players
-        playerList.add(new Player("Anthony Joshua", R.drawable.england, R.drawable.joshua));
+        playerList.add(new Player("Anthony Joshua", R.drawable.unitedkingdom, R.drawable.joshua));
         playerList.add(new Player("Wladimir Klitschko", R.drawable.ukraine, R.drawable.klitschko));
         playerList.add(new Player("Deontay Wilder", R.drawable.usa, R.drawable.wilder));
 
