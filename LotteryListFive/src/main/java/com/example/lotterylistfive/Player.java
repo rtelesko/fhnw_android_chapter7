@@ -2,13 +2,12 @@ package com.example.lotterylistfive;
 
 class Player {
     private String name;
-    private String age;
+    private int countryId;
     private int photoId;
 
-    // Getter methods
-    Player(String name, String age, int photoId) {
+    Player(String name, int countryId, int photoId) {
         this.name = name;
-        this.age = age;
+        this.countryId = countryId;
         this.photoId = photoId;
     }
 
@@ -16,8 +15,8 @@ class Player {
         return name;
     }
 
-    public String getAge() {
-        return age;
+    public int getCountry() {
+        return countryId;
     }
 
     public int getImage() {

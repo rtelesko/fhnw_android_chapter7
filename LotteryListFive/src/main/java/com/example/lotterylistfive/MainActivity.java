@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
         playerList = new ArrayList<>();
 
         // Adding some Players
-        playerList.add(new Player("Anthony Joshua", "31 years old", R.drawable.joshua));
-        playerList.add(new Player("Wladimir Klitschko", "44 years old", R.drawable.klitschko));
-        playerList.add(new Player("Deontay Wilder", "35 years old", R.drawable.wilder));
+        playerList.add(new Player("Anthony Joshua", R.drawable.england, R.drawable.joshua));
+        playerList.add(new Player("Wladimir Klitschko", R.drawable.ukraine, R.drawable.klitschko));
+        playerList.add(new Player("Deontay Wilder", R.drawable.usa, R.drawable.wilder));
 
         // Creating RecyclerView adapter
         PlayerAdapter adapter = new PlayerAdapter(this, playerList);

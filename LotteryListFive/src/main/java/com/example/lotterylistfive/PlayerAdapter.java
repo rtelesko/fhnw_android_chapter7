@@ -41,7 +41,7 @@ public class PlayerAdapter extends RecyclerView.Adapter<PlayerAdapter.PlayerView
 
         // Binding the data with the ViewHolder views
         holder.tvName.setText(player.getName());
-        holder.tvAge.setText(player.getAge());
+        holder.ivCountry.setImageDrawable(context.getResources().getDrawable(player.getCountry()));
         holder.ivPhoto.setImageDrawable(context.getResources().getDrawable(player.getImage()));
     }
 
@@ -54,14 +54,14 @@ public class PlayerAdapter extends RecyclerView.Adapter<PlayerAdapter.PlayerView
 
     class PlayerViewHolder extends RecyclerView.ViewHolder {
 
-        TextView tvName, tvAge;
-        ImageView ivPhoto;
+        TextView tvName;
+        ImageView ivPhoto, ivCountry;
 
         public PlayerViewHolder(View itemView) {
             super(itemView);
             ivPhoto = itemView.findViewById(R.id.ivPhoto);
             tvName = itemView.findViewById(R.id.tvName);
-            tvAge = itemView.findViewById(R.id.tvAge);
+            ivCountry = itemView.findViewById(R.id.ivCountry);
         }
     }
 }
