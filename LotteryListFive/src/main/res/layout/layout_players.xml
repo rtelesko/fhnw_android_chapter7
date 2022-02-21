@@ -38,9 +38,12 @@
 
             <ImageView
                 android:id="@+id/ivCountry"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:padding="4dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/tvName"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/ivPhoto"
                 android:scaleType="centerCrop"/>
 
         </RelativeLayout>
